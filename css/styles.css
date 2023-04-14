@@ -58,6 +58,7 @@ address {
     margin: 0 auto;
 }
 
+
 /*------HEADER------*/
 .header {
     background-color: var(--color-wite);
@@ -286,14 +287,14 @@ address {
     padding-bottom: 0px;
 }
 
-.avantage-list {
+
+.advantage-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-
 }
 
 .advantage-item {
+
     margin-bottom: 72px;
 }
 
@@ -317,8 +318,6 @@ address {
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
     text-align: center;
-    text-transform: capitalize;
-    align-self: stretch;
 }
 
 .advantage-text {
@@ -327,7 +326,6 @@ address {
     letter-spacing: 0.02em;
     color: var(--color-slate)
 }
-
 
 
 /*------OUR WORK-----*/
@@ -362,10 +360,16 @@ address {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 72px;
     background-color: var(--color-cloud);
     justify-content: center;
 
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
 }
 
 .team-item {
@@ -909,7 +913,7 @@ address {
 }
 
 .modal {
-    width: 408px;
+    width: 392px;
     min-height: 576px;
     background-color: var(--color-md-bc);
     border-radius: 4px;
