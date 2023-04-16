@@ -331,7 +331,7 @@ address {
 
 
 .hero {
-    max-width: 428px;
+    max-width: 100%;
     background-color: var(--color-navy-blue);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
@@ -345,6 +345,12 @@ address {
     padding-bottom: 112px;
     margin: 0 auto;
     z-index: 1;
+}
+
+.hero-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (min-device-pixel-ratio: 2),

@@ -52,7 +52,6 @@
     /* hero */
 
     .hero {
-        max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/s.hero-tab-min.jpg);
@@ -71,6 +70,7 @@
     }
 
     .hero-title {
+        max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
         margin-bottom: 36px;
@@ -221,7 +221,6 @@
     /*-------HERO--------*/
 
     .hero {
-        min-width: 1158px;
         padding-top: 188px;
         padding-bottom: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
