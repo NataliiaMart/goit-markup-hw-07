@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <!-- <header class="header">
+    <header class="header">
         <div class="conteiner header-conteiner">
             <nav class="header-nav">
                 <a class="logo-web link" href="./index.html">Web<span class="logo-studio">Studio</span></a>
@@ -47,8 +47,74 @@
                 </ul>
 
             </address>
+            <button type="button" class="menu-open-btn" data-menu-open>
+                <svg class="menu-open-icon" width="32" height="22">
+                    <use href="./images/hw4.svg#icon-mob-menu"></use>
+                </svg>
+            </button>
         </div>
-    </header> -->
+        <div class="mob-menu is-hidden" data-menu>
+            <div>
+                <button type="button" class="menu-close-btn" data-menu-close>
+                    <svg class="menu-close-icon" width="24" height="24">
+                        <use href="./images/hw4.svg#icon-x"></use>
+                    </svg>
+                </button>
+                <ul class="mob-menu-list list ">
+                    <li class="mob-menu-link link ">
+                        <a class="mob-menu-pages link" href="./index.html">Studio</a>
+                    </li>
+                    <li class="mob-menu-link link ">
+                        <a class="mob-menu-pages link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="mob-menu-link link ">
+                        <a class="mob-menu-pages link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="mob-menu-address-list list">
+
+                    <li class="mob-menu-address">
+                        <a class="mob-menu-item-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                    <li class="mob-menu-address">
+                        <a class="mob-menu-item-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="mob-menu-soc-list list">
+                    <li class="mob-menu-soc-item">
+                        <a href="" class="mob-menu-soc-link link">
+                            <svg width="16" height="16" class="mob-menu-soc-icon">
+                                <use href="./images/hw4.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-soc-item">
+                        <a href="" class="mob-menu-soc-link link">
+                            <svg width="16" height="16" class="mob-menu-soc-icon">
+                                <use href="./images/hw4.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-soc-item">
+                        <a href="" class="mob-menu-soc-link link">
+                            <svg width="16" height="16" class="mob-menu-soc-icon">
+                                <use href="./images/hw4.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-soc-item">
+                        <a href="" class="mob-menu-soc-link link">
+                            <svg width="16" height="16" class="mob-menu-soc-icon">
+                                <use href="./images/hw4.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
     <main>
         <section class="hero">
@@ -119,11 +185,27 @@
                 <h2 class="our-work-title">What are we doing</h2>
 
                 <ul class="our-work list">
-                    <li class="our-work-item"><img src="./images/img1.jpg" alt="monitor" width="360" height="300"></li>
-                    <li class="our-work-item"><img src="./images/img2.jpg" alt="picture with phone" width="360"
-                            height="300"></li>
-                    <li class="our-work-item"><img src="./images/img3.jpg" alt="smartphone and computer" width="360"
-                            height="300"></li>
+                    <li class="our-work-item">
+                        <picture>
+                            <source srcset="./images/img1.jpg 1x, /images/img1-2x-min.jpg 2x"
+                                media="(min-width: 1158px)" />
+                        </picture>
+                        <img src="./images/img1.jpg" alt="monitor" width="360" height="300">
+                    </li>
+                    <li class="our-work-item">
+                        <picture>
+                            <source srcset="./images/img2.jpg 1x, /images/img2-2x-min.jpg 2x"
+                                media="(min-width: 1158px)" />
+                        </picture>
+                        <img src="./images/img2.jpg" alt="picture with phone" width="360" height="300">
+                    </li>
+                    <li class="our-work-item">
+                        <picture>
+                            <source srcset="./images/img3.jpg 1x, /images/img3-2x-min.jpg 2x"
+                                media="(min-width: 1158px)" />
+                        </picture>
+                        <img src="./images/img3.jpg" alt="smartphone and computer" width="360" height="300">
+                    </li>
                 </ul>
             </div>
         </section>
@@ -456,7 +538,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
-
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 
