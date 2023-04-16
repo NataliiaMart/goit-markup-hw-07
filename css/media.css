@@ -250,8 +250,7 @@
     /*---------ADVANTAGE-----*/
 
     .advantage {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-bottom: 0px;
     }
 
     .avantage-list {
@@ -305,6 +304,8 @@
         display: flex;
         align-items: center;
         gap: 24px;
+        max-width: 1440px;
+        margin: 0 auto;
     }
 
     .our-work-item {
@@ -321,7 +322,6 @@
             background-image: url(../images/img3-2x-min.jpg);
         }
 
-        /* .our-work>img */
     }
 
     /* cust */
@@ -369,12 +369,17 @@
         margin-left: 0;
     }
 
+    .footer-logo-box {
+        margin-bottom: 0px;
+    }
+
     .footer-text {
         width: 264px;
     }
 
     .footer-social {
         margin-left: 120px;
+        margin-bottom: 0;
     }
 
     .footer-social-text {
