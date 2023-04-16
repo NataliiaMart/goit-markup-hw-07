@@ -331,7 +331,7 @@ address {
 
 
 .hero {
-    max-width: 100%;
+    max-width: 428px;
     background-color: var(--color-navy-blue);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
