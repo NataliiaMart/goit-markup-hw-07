@@ -65,7 +65,7 @@
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(/images/s.hero-tab-2x-min.jpg);
+                url(../images/s.hero-tab-2x-min.jpg);
         }
     }
 
@@ -236,7 +236,7 @@
             padding-bottom: 188px;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(/images/s.hero-2x-min.jpg);
+                url(../images/s.hero-2x-min.jpg);
         }
     }
 
@@ -316,9 +316,9 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .our-work-item>img {
-            background-image: url(/images/img1-2x-min.jpg);
-            background-image: url(/images/img2-2x-min.jpg);
-            background-image: url(/images/img3-2x-min.jpg);
+            background-image: url(../images/img1-2x-min.jpg);
+            background-image: url(../images/img2-2x-min.jpg);
+            background-image: url(../images/img3-2x-min.jpg);
         }
 
         /* .our-work>img */
