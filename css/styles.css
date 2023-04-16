@@ -344,6 +344,7 @@ address {
     padding-top: 112px;
     padding-bottom: 112px;
     margin: 0 auto;
+    z-index: 1;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -352,7 +353,7 @@ address {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(/images/s.hero-mob-2x-min.jpg);
+            url(../images/s.hero-mob-2x-min.jpg);
     }
 }
 
