@@ -116,6 +116,18 @@ address {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: opacity 250ms linear, visibility 250ms linear;
+}
+
+.backdrop.is-hidden .mob-menu {
+    transform: translateX(-50%, -50%) scale(0.8);
+
+}
+
+.is-hidden {
+    transform: translateX(100%) scale(1);
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .menu-close-btn {
