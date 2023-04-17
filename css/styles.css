@@ -143,21 +143,6 @@ address {
     pointer-events: auto;
 }
 
-.mobile-menu_coteiner {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    position: relative;
-
-    padding-top: 80px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-}
-
 .menu-close-btn {
     position: absolute;
     top: 0;
