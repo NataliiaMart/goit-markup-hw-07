@@ -116,9 +116,6 @@ address {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
     transition: opacity 250ms linear, visibility 250ms linear;
 }
 
@@ -128,20 +125,13 @@ address {
 }
 
 .is-hidden {
+    transform: translateX(100%);
+    visibility: hidden;
+    pointer-events: none;
     transform: translateX(100%) scale(1);
 
 }
 
-.backdrop.is-open .mob-menu {
-    transform: translateX(-50%, -50%) scale(0.8);
-
-}
-
-.mobile-menu.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
 
 .menu-close-btn {
     position: absolute;
