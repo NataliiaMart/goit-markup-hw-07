@@ -49,6 +49,10 @@
         display: none;
     }
 
+    .js-open {
+        display: none;
+    }
+
     /* hero */
 
     .hero {

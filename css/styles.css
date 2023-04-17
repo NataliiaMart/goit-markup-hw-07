@@ -116,7 +116,10 @@ address {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: opacity 250ms linear, visibility 250ms linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden .mob-menu {
@@ -132,6 +135,15 @@ address {
 
 }
 
+.mob-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.js-open {
+    display: flex;
+}
 
 .menu-close-btn {
     position: absolute;
